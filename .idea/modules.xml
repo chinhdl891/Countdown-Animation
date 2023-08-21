@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Countdown-Animation.iml" filepath="$PROJECT_DIR$/Countdown-Animation.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Countdown-Animation.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Countdown-Animation.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Countdown-Animation.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Countdown-Animation.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Countdown-Animation.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Countdown-Animation.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Countdown-Animation.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Countdown-Animation.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ITG.Countdown-Animation.iml" filepath="$PROJECT_DIR$/.idea/modules/ITG.Countdown-Animation.iml" />
     </modules>
   </component>
 </project>

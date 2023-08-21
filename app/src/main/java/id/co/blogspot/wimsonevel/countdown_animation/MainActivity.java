@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button btnStart;
 
     private int status = 0;
-    private final long startTime = 10 * 1000;
+    private final long startTime = 100 * 1000;
     private final long interval = 1 * 1000;
 
     @Override
@@ -23,12 +23,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         countDownProgress = (DonutProgress) findViewById(R.id.countdown_progress);
         btnStart = (Button) findViewById(R.id.btn_start);
-
-        countDownProgress.setProgress(10);
+        countDownProgress.setMax(10);
+        countDownProgress.setProgress(100);
 
         btnStart.setOnClickListener(this);
 
-        countDownTimer = new CountDownTimer(startTime, interval) {
+        countDownTimer = new CountDownTimer(startTime, 1000) {
             @Override
             public void onTick(long millisUntilFinished) {
                 countDownProgress.setProgress((int) millisUntilFinished / 1000);
